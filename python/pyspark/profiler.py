@@ -485,3 +485,4 @@ if __name__ == "__main__":
     (failure_count, test_count) = doctest.testmod()
     if failure_count:
         sys.exit(-1)
+    print('tested to make change')
